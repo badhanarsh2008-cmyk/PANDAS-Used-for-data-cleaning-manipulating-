@@ -99,3 +99,11 @@ print("Describe")
 print(df.describe())    #statistics for numeric columns
 print("Describe with parameter")
 print(df.describe(include='float'))        #summary of text/categorical columns ( sepcific datatype )
+
+#selecting rows and columns
+
+print(df["Name"])       #single column  
+print(df[["Name","Marks"]])     #multiple columns
+
+print(df.iloc[0:2])     #slicing of df ( loc = select by label , iloc = select by position )
+print(df.loc[:, ['Name','City']])       # : = all ( like here it returned all the rows and specified columns)
