@@ -1,0 +1,31 @@
+id,message,num_links,num_caps,sender_age_days,target
+1,"Congratulations! You won a free iPhone. Click now",3,25,10,1
+2,"Hey bro, class at 10am tomorrow",0,1,450,0
+3,"LIMITED OFFER!!! BUY NOW",2,30,5,1
+4,"Can you send me the notes?",0,0,300,0
+5,"Free cash reward waiting for you",1,15,,1
+6,"Meeting shifted to 3 PM",0,2,500,0
+7,"WINNER! Claim your prize immediately",2,,15,1
+8,"Let's play cricket this evening",0,0,250,0
+9,"Earn money from home easily",1,20,20,1
+10,"Happy Birthday! Have a great day",0,1,600,0
+11,"URGENT! Account verification needed",2,18,12,1
+12,"Lunch at canteen?",0,0,340,0
+13,"You have been selected for a reward",1,12,25,1
+14,"Assignment submission extended",0,1,200,0
+15,"Get rich quick!!!",2,28,8,1
+16,"See you at the library",0,0,390,0
+17,"Exclusive deal just for you",1,14,18,1
+18,"Movie tonight?",0,0,420,0
+19,"Click here to win cash",3,22,14,1
+20,"Project discussion at 5",0,1,310,0
+21,,1,16,30,1
+22,"Good morning",0,,550,0
+23,"Special promotion available",1,13,22,1
+24,"Need help with python assignment",0,0,280,0
+25,"FREE FREE FREE OFFER",2,35,4,1
+26,"Where are you?",0,0,500,0
+27,"Lowest price guaranteed",1,17,9,1
+28,"Let's meet after class",0,0,410,0
+29,"Claim your reward today",2,19,11,1
+30,"Exam schedule released",0,1,350,0
