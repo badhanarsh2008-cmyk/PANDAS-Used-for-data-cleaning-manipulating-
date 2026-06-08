@@ -75,4 +75,16 @@ data = {
     'Department': ['IT', 'HR', 'IT', 'Finance', 'HR', 'IT']
 }
 
-#inspecting methods 
+#inspecting methods
+
+df = pd.DataFrame(data)
+print(df)
+
+print("df head")
+print(df.head())        #just like series head() method it returns first 5 values from the dataframe.
+print("df tail")
+print(df.tail())        #return last 5 values by default. 
+print("Shape")
+print(df.shape)         #returns the number of rows and columns
+print("columns")
+print(df.columns)
