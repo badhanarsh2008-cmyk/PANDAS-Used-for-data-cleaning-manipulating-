@@ -61,7 +61,8 @@ print(marks.isna())         #checks the missing values
 print("fill missing values")
 print(marks.fillna(marks.mean()))       #fill missing values ( need parameter )
 print("change data type")
-print(marks.astype(float))      #changes the datatype
+print(marks.astype(float)) #changes the datatype
+marks.astype(int)   #back to normal
 
 #DATAFRAME
 
@@ -87,4 +88,14 @@ print(df.tail())        #return last 5 values by default.
 print("Shape")
 print(df.shape)         #returns the number of rows and columns
 print("columns")
-print(df.columns)
+print(df.columns)       #returns the name of columns
+print("index")
+print(df.index)         #returns the rangeindex ( start=? , stop=? , step=?)
+print("Datatype")
+print(df.dtypes)        #returns the datatypes of columns
+print("info")
+print(df.info)          #returns the summary of columns, nulls, and data types
+print("Describe")
+print(df.describe())    #statistics for numeric columns
+print("Describe with parameter")
+print(df.describe(include='float'))        #summary of text/categorical columns ( sepcific datatype )
