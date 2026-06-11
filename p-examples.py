@@ -107,3 +107,5 @@ print(df[["Name","Marks"]])     #multiple columns
 
 print(df.iloc[0:2])     #slicing of df ( loc = select by label , iloc = select by position )
 print(df.loc[:, ['Name','City']])       # : = all ( like here it returned all the rows and specified columns)
+
+#11-6-2026
